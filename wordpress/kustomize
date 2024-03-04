@@ -1,0 +1,5 @@
+secretGenerator:
+- name: mysql-pass
+  literals:
+  - password=NetApp!23
+EOF
