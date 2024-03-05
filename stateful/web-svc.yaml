@@ -1,0 +1,13 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: webapp-service
+  name: stateful
+spec:
+  selector:
+    app: webapp
+  ports:
+  - protocol: TCP
+    port: 80
+    targetPort: 80
+  type: LoadBalancer
