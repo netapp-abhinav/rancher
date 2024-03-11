@@ -44,4 +44,4 @@ spec:
       resources:
         requests:
           storage: 10Gi
-      storageClassName: rke2-ontap-gold
+      storageClassName: ontap-gold
